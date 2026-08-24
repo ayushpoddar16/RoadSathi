@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import Login from './pages/auth/Login';
 import Signup from './pages/auth/Signup';
+import Home from './pages/Home';
 
 import RequestHelp from './pages/customer/RequestHelp';
 import TrackingPage from './pages/customer/TrackingPage';
@@ -22,7 +23,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/login" />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
    
@@ -57,7 +58,7 @@ function App() {
           <Route path="history" element={<JobHistory />} />
         </Route>
 
-        <Route path="*" element={<Navigate to="/login" />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
   );
