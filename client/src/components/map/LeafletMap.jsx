@@ -77,7 +77,7 @@ const LeafletMap = ({
             position={[providerLocation.latitude, providerLocation.longitude]}
             icon={providerIcon}
           >
-            <Popup>Provider location</Popup>
+            <Popup>Mechanic location</Popup>
           </Marker>
         )}
 

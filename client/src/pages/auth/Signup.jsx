@@ -73,7 +73,7 @@ const Signup = () => {
                       : "bg-white text-ink-700 border-ink-300 hover:border-brand-400"
                   }`}
                 >
-                  {r === "customer" ? "Getting help" : "Providing help"}
+                  {r === "customer" ? "Getting help" : "I'm a Mechanic"}
                 </button>
               ))}
             </div>
@@ -88,7 +88,7 @@ const Signup = () => {
               value={form.name}
               onChange={handleChange}
               required
-              placeholder="Ayush Poddar"
+              placeholder="Enter your name"
               className="w-full px-4 py-2.5 rounded-lg border border-ink-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
             />
           </div>
@@ -103,7 +103,7 @@ const Signup = () => {
               value={form.email}
               onChange={handleChange}
               required
-              placeholder="you@example.com"
+              placeholder="Enter your email"
               className="w-full px-4 py-2.5 rounded-lg border border-ink-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
             />
           </div>
@@ -118,7 +118,7 @@ const Signup = () => {
               value={form.phone}
               onChange={handleChange}
               required
-              placeholder="9876543210"
+              placeholder="Enter phone number"
               className="w-full px-4 py-2.5 rounded-lg border border-ink-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
             />
           </div>
@@ -134,6 +134,7 @@ const Signup = () => {
               onChange={handleChange}
               required
               minLength={6}
+              autoComplete="new-password"
               placeholder="At least 6 characters"
               className="w-full px-4 py-2.5 rounded-lg border border-ink-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
             />

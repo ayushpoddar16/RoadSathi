@@ -8,9 +8,9 @@ import { connectSocket, getSocket } from "../../lib/socket";
 
 const STATUS_LABELS = {
   pending: "Searching for nearby help...",
-  matched: "Provider matched — waiting for them to start",
-  on_the_way: "Provider is on the way",
-  arrived: "Provider has arrived",
+  matched: "Mechanic matched — waiting for them to start",
+  on_the_way: "Mechanic is on the way",
+  arrived: "Mechanic has arrived",
   in_progress: "Service in progress",
   completed: "Service completed",
 };

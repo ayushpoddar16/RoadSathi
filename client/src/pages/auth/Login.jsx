@@ -54,7 +54,7 @@ const Login = () => {
               value={form.email}
               onChange={handleChange}
               required
-              placeholder="you@example.com"
+              placeholder="Enter your email"
               className="w-full px-4 py-2.5 rounded-lg border border-ink-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
             />
           </div>
@@ -67,7 +67,8 @@ const Login = () => {
               value={form.password}
               onChange={handleChange}
               required
-              placeholder="Your password"
+              autoComplete="current-password"
+              placeholder="Enter your password"
               className="w-full px-4 py-2.5 rounded-lg border border-ink-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent"
             />
           </div>

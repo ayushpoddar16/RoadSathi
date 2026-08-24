@@ -96,7 +96,7 @@ const PaymentPage = () => {
         <div className="bg-white rounded-xl2 shadow-sm p-6">
           <h1 className="text-xl font-bold text-ink-900 mb-1">Service completed</h1>
           <p className="text-ink-500 text-sm mb-6">
-            {request?.subIssue} — pay your provider to close out the request.
+            {request?.subIssue} — pay your mechanic to close out the request.
           </p>
 
           <label className="block text-sm font-medium text-ink-700 mb-1">Amount (₹)</label>
