@@ -1,5 +1,9 @@
 # RoadSathi
 
+<p align="center">
+    <img src="client/src/assets/hero-tracking.png" alt="RoadSathi live mechanic tracking screen" width="900" />
+</p>
+
 RoadSathi is a roadside assistance platform that connects customers with nearby mechanics. Customers can request help for vehicle problems, providers can accept nearby jobs, and customers can track the provider in real time.
 
 ## Features
@@ -207,4 +211,3 @@ Browser GPS
 - MongoDB and Redis must be reachable when the server starts.
 - Provider matching requires the provider to be online, approved, and configured for the requested issue and vehicle type.
 - Payment and document upload features require their respective third-party credentials.
-
