@@ -6,7 +6,9 @@
 
 RoadSathi is a roadside assistance platform that connects customers with nearby mechanics. Customers can request help for vehicle problems, providers can accept nearby jobs, and customers can track the provider in real time.
 
-[Live Demo](https://roadsathi.onrender.com/)
+## Live Demo
+
+Visit **[RoadSathi online](https://roadsathi.onrender.com/)** to try the application.
 
 ## Features
 
